@@ -1,0 +1,56 @@
+
+# Help files
+HELP.md
+
+# Maven build output
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse compiled output
+bin/
+
+# Keep source-level target folders if needed
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Eclipse / Spring Tool Suite
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# General build output
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Visual Studio Code
+.vscode/
+
+# Environment variables and local configuration
+.env
+.env.*
+application-local.properties
+
+# Log files
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
